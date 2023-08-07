@@ -27,8 +27,11 @@ jobs:
           echo "$changelog" >> $GITHUB_OUTPUT 
           echo "EOF" >> $GITHUB_OUTPUT
 
+
           mkdir navigator artifacts
-          cp -r * navigator
+          cp CHANGELOG.md navigator
+          cp LICENSE.md navigator
+          cp navigator.json navigator
           zip -r navigator-$version.zip navigator
           cp navigator-$version.zip artifacts
           cp navigator.json artifacts
