@@ -30,7 +30,9 @@ With no command line use needed, you can:
 
 ## Install and Upgrade
 
-This plugin is a part of [Websoft9](https://github.com/Websoft9/websoft9) which is a web-based PaaS platform, so you should have [install Websoft9](https://github.com/Websoft9/websoft9) if you want to use it.
+This plugin is a part of [Websoft9](https://github.com/Websoft9/websoft9) which is a web-based PaaS platform by default. If you have [install Websoft9](https://github.com/Websoft9/websoft9) you can use this plugin directly.  
+
+If there no this plugin at Websoft9, you can install or upgrade it by below command:  
 
 ```
 cd /usr/share/cockpit
