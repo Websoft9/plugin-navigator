@@ -21,13 +21,13 @@ With no command line use needed, you can:
 - **Upload files by dragging and dropping**,
 - **Download files and directories**.
 
-| Browsing Filesystem                    |
-| -------------------------------------- |
-| ![User Interface](src/doc/ui_root.png) |
+| Browsing Filesystem                      |
+| ---------------------------------------- |
+| ![User Interface](./src/doc/ui_root.png) |
 
-| Editing Content                         | Editing Properties                        |
-| --------------------------------------- | ----------------------------------------- |
-| ![Edit Contents](src/doc/ui_editor.png) | ![Edit Preferences](src/doc/ui_prefs.png) |
+| Editing Content                           | Editing Properties                          |
+| ----------------------------------------- | ------------------------------------------- |
+| ![Edit Contents](./src/doc/ui_editor.png) | ![Edit Preferences](./src/doc/ui_prefs.png) |
 
 ## Installation and update
 
