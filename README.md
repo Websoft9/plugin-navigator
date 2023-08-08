@@ -40,7 +40,7 @@ wget https://artifact.azureedge.net/release/websoft9/plugin/navigator/navigator-
 
 ## Development
 
-Very special, in principle, we will not make any modifications to the code itself. The [source code](./src) in the project is currently only used as a reference. When there is a update in the [upstream project](https://github.com/45Drives/cockpit-navigator), we will first pull the latest content of the upstream project and merge necessary document files to release the source code package and artifacts.
+Very special, we will not make any modifications to the code in principle. The [source code](./src) in the project is currently only used as a reference. When there is a update in the [upstream project](https://github.com/45Drives/cockpit-navigator), we will first pull the latest content of the upstream project and merge necessary document files to release the source code package and artifacts.
 
 So if you have a better idea or discover a bug, you can submit an [issue on upstream project](https://github.com/45Drives/cockpit-navigator/issues/new/choose).
 

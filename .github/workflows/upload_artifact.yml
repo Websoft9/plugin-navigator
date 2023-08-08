@@ -27,8 +27,9 @@ jobs:
           echo "$changelog" >> $GITHUB_OUTPUT 
           echo "EOF" >> $GITHUB_OUTPUT
 
-
+          git clone https://github.com/45Drives/cockpit-navigator.git
           mkdir navigator artifacts
+          cp -r cockpit-navigator/navigator navigator
           cp CHANGELOG.md navigator
           cp LICENSE.md navigator
           cp navigator.json navigator
