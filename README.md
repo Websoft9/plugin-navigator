@@ -48,16 +48,14 @@ We will not make any modifications to the code in principle. We only pull the co
 We greatly welcome community contributions to provide suggestions and improvements to our project:
 
 1. Reporting bugs
-   If you find a bug, please tell us so we can triage it. All bugs are managed in this [GitHub repo](https://github.com/45Drives/cockpit-navigator/issues/new/choose). When you click through, our template makes it easy to record all of the details. Before you report a bug, please check our list of open bugs in case someone else has already reported it.
+   If you find a bug, please tell us so we can triage it. All bugs are managed in this [GitHub repo](https://github.com/45Drives/cockpit-navigator/issues/new/choose). 
 
 2. Feature requests
-   You can request new features in this [GitHub repo](https://github.com/Websoft9/plugin-navigator/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=enhancement+title+for+%5Bappname%5D). We also publish a list of open feature requests in GitHub. Check to see if someone has already requested the feature you want, and give it a thumbs up.
-   Learn how we prioritize feature development in this knowledge base article.
+   You can request new features in this [GitHub repo](https://github.com/Websoft9/plugin-navigator/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=enhancement+title+for+%5Bappname%5D). 
 
-3. Contributing to the Library codebase
+3. Contributing to the Library codebase, some times will have reward for it
    Please follow our [build instructions](./docs/developer.md) and [contribution guidelines](CONTRBUTING.md) when making a contribution.
 
-> We will certainly encounter difficult problems in our work, but it may be very simple for you. Websoft9 submit some issue with "¥50 - ¥1000", hope you can close it and obtain the reward.
 
 ## License
 
