@@ -1,5 +1,7 @@
 # Contributing Guidelines
 
+We will not make any modifications to the code in principle. We only pull the content of the upstream project to release and upload artifacts.
+
 ## General
 
 Please make sure that there aren't existing pull requests attempting to address the issue mentioned. Likewise, please check for issues related to update, as someone else may be working on the issue in a branch or fork.
