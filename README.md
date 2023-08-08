@@ -1,4 +1,3 @@
-[![](https://lab.frogg.it/lydra/yunohost/ansible-yunohost/badges/main/pipeline.svg)](https://github.com/Websoft9/plugin-navigator/actions)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Websoft9/plugin-navigator)](https://github.com/Websoft9/plugin-navigator)
 [![GitHub Release Date](https://img.shields.io/github/release-date/Websoft9/plugin-navigator)](https://github.com/Websoft9/plugin-navigator)
@@ -6,7 +5,7 @@
 
 # Websoft9 Plugin - `navigator`
 
-A Featureful File System Browser for Cockpit-remotely browse, manage, edit, upload, and download files on your server through your web browser.
+Plugin-navigator is fork from [cockpit-navigator](https://github.com/45Drives/cockpit-navigator.git). It's a File System Browser for Cockpit-remotely browse, manage, edit, upload, and download files on your server through your web browser.
 
 ## Features
 
@@ -40,15 +39,25 @@ wget https://artifact.azureedge.net/release/websoft9/plugin/navigator/navigator-
 
 ## Development
 
-Very special, we will not make any modifications to the code in principle. We only pull the content of the upstream project to release and upload artifacts.
+We will not make any modifications to the code in principle. We only pull the content of the upstream project to release and upload artifacts.
 
-So if you have a better idea or discover a bug, you can submit an [issue on upstream project](https://github.com/45Drives/cockpit-navigator/issues/new/choose).
+## How to contribute it?
 
-## DevOps principle
+We will not make any modifications to the code in principle. We only pull the content of the upstream project to release and upload artifacts.
 
-DevOps thinks the same way **[5m1e](https://www.dgmfmoldclamps.com/what-is-5m1e-in-injection-molding-industry/)** for manufacturing companies
+We greatly welcome community contributions to provide suggestions and improvements to our project:
 
-We follow the development principle of minimization, rapid release
+1. Reporting bugs
+   If you find a bug, please tell us so we can triage it. All bugs are managed in this [GitHub repo](https://github.com/45Drives/cockpit-navigator/issues/new/choose). When you click through, our template makes it easy to record all of the details. Before you report a bug, please check our list of open bugs in case someone else has already reported it.
+
+2. Feature requests
+   You can request new features in this [GitHub repo](https://github.com/Websoft9/plugin-navigator/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=enhancement+title+for+%5Bappname%5D). We also publish a list of open feature requests in GitHub. Check to see if someone has already requested the feature you want, and give it a thumbs up.
+   Learn how we prioritize feature development in this knowledge base article.
+
+3. Contributing to the Library codebase
+   Please follow our [build instructions](./docs/developer.md) and [contribution guidelines](CONTRBUTING.md) when making a contribution.
+
+> We will certainly encounter difficult problems in our work, but it may be very simple for you. Websoft9 submit some issue with "¥50 - ¥1000", hope you can close it and obtain the reward.
 
 ## License
 

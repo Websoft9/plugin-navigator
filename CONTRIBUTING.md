@@ -1,30 +1,46 @@
 # Contributing Guidelines
 
-## Development summary
+## General
 
-Navigator is a purely static web page, and to make it run on Cockpit, you only need to install the corresponding operating system dependencies., you can quickly get started with [developer documentation](docs/developer.md)
+Please make sure that there aren't existing pull requests attempting to address the issue mentioned. Likewise, please check for issues related to update, as someone else may be working on the issue in a branch or fork.
 
-## DevOps principle
+- Please open a discussion in a new issue/existing issue to talk about the changes you'd like to bring
+- Develop in a contributor's branch, not main/product
+- Each issue must be submitted for a pull_request?
 
-DevOps thinks the same way **[5m1e](https://www.dgmfmoldclamps.com/what-is-5m1e-in-injection-molding-industry/)** for manufacturing companies
+When creating a new branch, prefix it with type of change, the associated opened issue number and some text describing the issue (using dash as a separator).
 
-We follow the development principle of minimization, rapid release
+For example, if you work on a bugfix for the issue #361, you could name the branch `bug361-container-startup-repair`
 
-### Version
+> Type must be one of the following:
 
-Synchronize version of [upstream project](https://github.com/45Drives/cockpit-navigator)
+- **enhancement**: A new feature
+- **bug**: A bug fix
+- **documentation**: Documentation only changes
 
-### Artifact
+## Branch
 
-Websoft9 use below [Artifact](https://jfrog.com/devops-tools/article/what-is-a-software-artifact/) for different usage:
+This repository have these branchs:
 
-- **Azure Storage for files**: Access [packages list](https://artifact.azureedge.net/release?restype=container&comp=list) at [Azure Storage](https://learn.microsoft.com/en-us/azure/storage/storage-dotnet-how-to-use-blobs#list-the-blobs-in-a-container)
+- **Contributor's branch**: Develpoer can fork main branch as their delelopment branch anytime
+- **main branch**: The only branch that accepts PR from Contributors's branch
+- **production branch**: For version release and don't permit modify directly, only merge PR from **main branch**
 
-### WorkFlow
+Flow: Contributor's branch → main branch → production branch
 
-Websoft9 use the [Production branch with GitLab flow](https://cm-gitlab.stanford.edu/help/workflow/gitlab_flow.md#production-branch-with-gitlab-flow) for development collaboration
+#### what is pull request
 
-> [gitlab workflow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) is improvement model for git
+[Pull request](https://docs.github.com/pull-requests) let you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+#### When is PR produced?
+
+- Contributor commit to main branch
+- main branch commit to production branch
+
+#### How to deal with PR?
+
+1. [pull request reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)
+2. Merge RP and CI/CD for it
 
 ## licensing
 
