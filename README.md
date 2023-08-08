@@ -42,8 +42,6 @@ unzip navigator-latest.zip && rm -f navigator-latest.zip
 
 ## How to contribute it?
 
-We will not make any modifications to the code in principle. We only pull the content of the upstream project to release and upload artifacts.
-
 We greatly welcome community contributions to provide suggestions and improvements to our project:
 
 1. Reporting bugs
