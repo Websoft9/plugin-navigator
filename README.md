@@ -28,18 +28,15 @@ With no command line use needed, you can:
 | ----------------------------------------- | ------------------------------------------- |
 | ![Edit Contents](./src/doc/ui_editor.png) | ![Edit Preferences](./src/doc/ui_prefs.png) |
 
-## Installation and update
+## Install
 
 Your server must be have [Websoft9](https://github.com/Websoft9) installed.
 
 ```
+# install and upgrade
 cd /usr/share/cockpit
 wget https://artifact.azureedge.net/release/websoft9/plugin/navigator/navigator-latest.zip && unzip navigator-latest.zip && rm -f navigator-latest.zip
 ```
-
-## Development
-
-We will not make any modifications to the code in principle. We only pull the content of the upstream project to release and upload artifacts.
 
 ## How to contribute it?
 
