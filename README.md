@@ -5,7 +5,7 @@
 
 # Websoft9 Plugin - `navigator`
 
-Plugin-navigator is fork from [cockpit-navigator](https://github.com/45Drives/cockpit-navigator.git). It's a File System Browser for Cockpit-remotely browse, manage, edit, upload, and download files on your server through your web browser.
+This repository is fork from [cockpit-navigator](https://github.com/45Drives/cockpit-navigator.git) which is a file System Browser for Cockpit-remotely browse, manage, edit, upload, and download files on your server through your web browser.
 
 ## Features
 
