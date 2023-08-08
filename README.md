@@ -1,8 +1,8 @@
-[![](https://lab.frogg.it/lydra/yunohost/ansible-yunohost/badges/main/pipeline.svg)](https://lab.frogg.it/lydra/yunohost/ansible-yunohost/-/pipelines)
+[![](https://lab.frogg.it/lydra/yunohost/ansible-yunohost/badges/main/pipeline.svg)](https://github.com/Websoft9/plugin-navigator/actions)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
-[![GitHub last commit](https://img.shields.io/github/last-commit/LydraFr/ansible-yunohost)](https://github.com/LydraFr/ansible-yunohost)
-[![GitHub Release Date](https://img.shields.io/github/release-date/LydraFr/ansible-yunohost)](https://github.com/LydraFr/ansible-yunohost)
-[![GitHub Repo stars](https://img.shields.io/github/stars/LydraFr/ansible-yunohost?style=social)](https://github.com/LydraFr/ansible-yunohost)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Websoft9/plugin-navigator)](https://github.com/Websoft9/plugin-navigator)
+[![GitHub Release Date](https://img.shields.io/github/release-date/Websoft9/plugin-navigator)](https://github.com/Websoft9/plugin-navigator)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Websoft9/plugin-navigator?style=social)](https://github.com/Websoft9/plugin-navigator)
 
 # Websoft9 Plugin - `navigator`
 
