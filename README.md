@@ -40,7 +40,7 @@ wget https://artifact.azureedge.net/release/websoft9/plugin/navigator/navigator-
 
 ## Development
 
-Very special, we will not make any modifications to the code in principle. The [source code](./src) in the project is currently only used as a reference. When there is a update in the [upstream project](https://github.com/45Drives/cockpit-navigator), we will first pull the latest content of the upstream project and merge necessary document files to release the source code package and artifacts.
+Very special, we will not make any modifications to the code in principle. We only pull the content of the upstream project to release and upload artifacts.
 
 So if you have a better idea or discover a bug, you can submit an [issue on upstream project](https://github.com/45Drives/cockpit-navigator/issues/new/choose).
 
@@ -49,16 +49,6 @@ So if you have a better idea or discover a bug, you can submit an [issue on upst
 DevOps thinks the same way **[5m1e](https://www.dgmfmoldclamps.com/what-is-5m1e-in-injection-molding-industry/)** for manufacturing companies
 
 We follow the development principle of minimization, rapid release
-
-### Version
-
-Synchronize version of [upstream project](https://github.com/45Drives/cockpit-navigator)
-
-### Artifact
-
-Websoft9 use below [Artifact](https://jfrog.com/devops-tools/article/what-is-a-software-artifact/) for different usage:
-
-- **Azure Storage for files**: Access [packages list](https://artifact.azureedge.net/release?restype=container&comp=list) at [Azure Storage](https://learn.microsoft.com/en-us/azure/storage/storage-dotnet-how-to-use-blobs#list-the-blobs-in-a-container)
 
 ## License
 

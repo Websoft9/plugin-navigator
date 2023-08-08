@@ -29,7 +29,9 @@ jobs:
 
           git clone https://github.com/45Drives/cockpit-navigator.git
           mkdir navigator artifacts
-          cp -r cockpit-navigator/navigator navigator
+          cp -r cockpit-navigator/navigator/* navigator
+          cp -r docs navigator
+          cp CONTRIBUTING.md navigator
           cp CHANGELOG.md navigator
           cp LICENSE.md navigator
           cp navigator.json navigator
