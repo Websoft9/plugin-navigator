@@ -30,7 +30,7 @@ With no command line use needed, you can:
 
 ## Install and Upgrade
 
-Your server must be have [Websoft9](https://github.com/Websoft9) installed.
+This plugin is a part of [Websoft9](https://github.com/Websoft9/websoft9) which is a web-based PaaS platform, so you should have [install Websoft9](https://github.com/Websoft9/websoft9) if you want to use it.
 
 ```
 cd /usr/share/cockpit
