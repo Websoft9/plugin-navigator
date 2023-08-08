@@ -50,7 +50,7 @@ We greatly welcome community contributions to provide suggestions and improvemen
 2. Feature requests
    You can request new features in this [GitHub repo](https://github.com/Websoft9/plugin-navigator/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=enhancement+title+for+%5Bappname%5D). 
 
-3. Contributing to the Library codebase, some times will have reward for it
+3. Contributing to the Library codebase, some times will have reward for it  
    Please follow our [build instructions](./docs/developer.md) and [contribution guidelines](CONTRBUTING.md) when making a contribution.
 
 
