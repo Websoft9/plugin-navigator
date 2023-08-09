@@ -30,9 +30,9 @@ With no command line use needed, you can:
 
 ## Install and Upgrade
 
-This plugin is a part of [Websoft9](https://github.com/Websoft9/websoft9) which is a web-based PaaS platform by default. If you have [install Websoft9](https://github.com/Websoft9/websoft9) you can use this plugin directly.  
+This plugin is a part of [Websoft9](https://github.com/Websoft9/websoft9) which is a web-based PaaS platform by default. If you have [install Websoft9](https://github.com/Websoft9/websoft9) you can use this plugin directly.
 
-If there no this plugin at Websoft9, you can install or upgrade it by below command:  
+If there no this plugin at Websoft9, you can install or upgrade it by below command:
 
 ```
 cd /usr/share/cockpit
@@ -45,14 +45,13 @@ unzip navigator-latest.zip && rm -f navigator-latest.zip
 We greatly welcome community contributions to provide suggestions and improvements to our project:
 
 1. Reporting bugs
-   If you find a bug, please tell us so we can triage it. All bugs are managed in this [GitHub repo](https://github.com/45Drives/cockpit-navigator/issues/new/choose). 
+   If you find a bug, please tell us so we can triage it. All bugs are managed in this [GitHub repo](https://github.com/45Drives/cockpit-navigator/issues/new/choose).
 
 2. Feature requests
-   You can request new features in this [GitHub repo](https://github.com/Websoft9/plugin-navigator/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=enhancement+title+for+%5Bappname%5D). 
+   You can request new features in this [GitHub repo](https://github.com/Websoft9/plugin-navigator/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=enhancement+title+for+%5Bappname%5D).
 
-3. Contributing to the Library codebase, some times will have reward for it  
-   Please follow our [build instructions](./docs/developer.md) and [contribution guidelines](CONTRBUTING.md) when making a contribution.
-
+3. Contributing to the navigator codebase, some times will have reward for it  
+   Please follow our [contribution guidelines](CONTRBUTING.md) when making a contribution.
 
 ## License
 
