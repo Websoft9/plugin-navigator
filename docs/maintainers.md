@@ -1,4 +1,4 @@
-# administrator Guide
+# maintainers Guidelines
 
 ## DevOps principle
 
