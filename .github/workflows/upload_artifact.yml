@@ -59,4 +59,4 @@ jobs:
           title: Release-v${{ env.VERSION }}
           body: ${{ steps.update_data.outputs.CHANGELOG }}
           draft: false
-          prerelease: true
+          prerelease: false
