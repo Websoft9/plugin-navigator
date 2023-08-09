@@ -51,7 +51,7 @@ We greatly welcome community contributions to provide suggestions and improvemen
    You can request new features in this [GitHub repo](https://github.com/Websoft9/plugin-navigator/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=enhancement+title+for+%5Bappname%5D).
 
 3. Contributing to the navigator codebase, some times will have reward for it  
-   Please follow our [contribution guidelines](CONTRBUTING.md) when making a contribution.
+   Please follow our [contribution guidelines](CONTRIBUTING.md) when making a contribution.
 
 ## License
 

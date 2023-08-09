@@ -22,16 +22,13 @@ For example, if you work on a bugfix for the issue #361, you could name the bran
 
 ## Structure
 
-Plugin-navigator perform file operations normally by some system packages such as file and zip.
+Plugin-navigator run normally by some system packages such as file and zip.
 
 ```mermaid
 graph LR;
-    A-->B;
-    B-->B.1;
-    B-->B.2;
-    A-->C;
-    C-->C.1;
-    C-->C.2;
+    Cockpit--> run navigator;
+    run navigator-->navigator;
+    run navigator-->Linux dependent packages;
 ```
 
 > Please refer to the [Dependencies](./docs/code_owner.md) for details
