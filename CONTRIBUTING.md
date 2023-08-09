@@ -28,7 +28,7 @@ Plugin-navigator run normally by some system packages such as file and zip.
 graph LR;
     Cockpit-->files-operation;
     files-operation-->navigator;
-    files-operation-->Linux dependent packages;
+    files-operation-->Linux-dependency-packages;
 ```
 
 > Please refer to the [Dependencies](./docs/code_owner.md) for details
