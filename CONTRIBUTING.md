@@ -26,9 +26,9 @@ Plugin-navigator run normally by some system packages such as file and zip.
 
 ```mermaid
 graph LR;
-    Cockpit--> run navigator;
-    run navigator-->navigator;
-    run navigator-->Linux dependent packages;
+    Cockpit-->files-operation;
+    files-operation-->navigator;
+    files-operation-->Linux dependent packages;
 ```
 
 > Please refer to the [Dependencies](./docs/code_owner.md) for details
