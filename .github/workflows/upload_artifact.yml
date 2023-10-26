@@ -60,7 +60,6 @@ jobs:
           fail_if_source_empty: true
 
       - name: Create Release
-        id: create_release
         if: ${{ steps.update_data.outputs.release == 'false' }}
         uses: softprops/action-gh-release@v1
         with:
@@ -83,7 +82,6 @@ jobs:
           fail_if_source_empty: true
 
       - name: Create Release
-        id: create_release
         if: ${{ steps.update_data.outputs.release == 'true' }}
         uses: softprops/action-gh-release@v1
         with:
