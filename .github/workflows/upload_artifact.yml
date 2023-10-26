@@ -21,12 +21,20 @@ jobs:
         run: |
           version=$(jq -r '.Version' navigator.json)
           echo version=$version
-          echo "VERSION=$version" >> $GITHUB_ENV
+          real_version=${version%%-*}
+          echo "VERSION=$real_version" >> $GITHUB_ENV
+          echo "RC_VERSION=$version" >> $GITHUB_ENV
           changelog=$(cat changelog_latest.md)
           echo "CHANGELOG<<EOF" >> $GITHUB_OUTPUT 
           echo "$changelog" >> $GITHUB_OUTPUT 
           echo "EOF" >> $GITHUB_OUTPUT
-
+          if [[ $version == *-* ]]; then
+            echo "release version"
+            echo "::set-output name=release::false"
+          else
+            echo "rc release version"
+            echo "::set-output name=release::true"
+          fi
           git clone https://github.com/45Drives/cockpit-navigator.git
           mkdir navigator artifacts
           cp -r cockpit-navigator/navigator/* navigator
@@ -35,12 +43,36 @@ jobs:
           cp CHANGELOG.md navigator
           cp LICENSE.md navigator
           cp navigator.json navigator
-          zip -r navigator-$version.zip navigator
-          cp navigator-$version.zip artifacts
+          zip -r navigator-$real_version.zip navigator
+          cp navigator-$real_version.zip artifacts
           cp navigator.json artifacts
-          cp artifacts/navigator-$version.zip artifacts/navigator-latest.zip
+          cp artifacts/navigator-$real_version.zip artifacts/navigator-latest.zip
 
       - name: Upload To Azure Blob
+        if: ${{ steps.update_data.outputs.release == 'false' }}
+        uses: LanceMcCarthy/Action-AzureBlobUpload@v2
+        with:
+          connection_string: ${{ secrets.AZURE_STORAGE_ARTIFACT }}
+          container_name: dev
+          source_folder: artifacts/
+          destination_folder: ./websoft9/plugin/navigator
+          delete_if_exists: true
+          fail_if_source_empty: true
+
+      - name: Create Release
+        id: create_release
+        if: ${{ steps.update_data.outputs.release == 'false' }}
+        uses: softprops/action-gh-release@v1
+        with:
+          files: /*
+          tag_name: v${{ env.RC_VERSION }}
+          title: Release-v${{ env.RC_VERSION }}
+          body: ${{ steps.update_data.outputs.CHANGELOG }}
+          draft: false
+          prerelease: false
+
+      - name: Upload To Azure Blob
+        if: ${{ steps.update_data.outputs.release == 'true' }}
         uses: LanceMcCarthy/Action-AzureBlobUpload@v2
         with:
           connection_string: ${{ secrets.AZURE_STORAGE_ARTIFACT }}
@@ -52,6 +84,7 @@ jobs:
 
       - name: Create Release
         id: create_release
+        if: ${{ steps.update_data.outputs.release == 'true' }}
         uses: softprops/action-gh-release@v1
         with:
           files: /*
