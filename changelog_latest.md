@@ -1,1 +1,1 @@
-1. copy from ubuntu22.04 package install navigator plugin
+1. improve githubaction
