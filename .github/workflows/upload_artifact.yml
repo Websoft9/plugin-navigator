@@ -33,7 +33,7 @@ jobs:
             echo "CHANNEL=release" >> $GITHUB_OUTPUT
           fi
           
-      - name: Update CHANGELOG.md
+      - name: Download source code and modify files
         id: update_data
         run: |
           changelog=$(cat changelog_latest.md)
