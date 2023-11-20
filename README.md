@@ -30,14 +30,12 @@ With no command line use needed, you can:
 
 ## Install and Upgrade
 
-This plugin is a part of [Websoft9](https://github.com/Websoft9/websoft9) which is a web-based PaaS platform by default. If you have [install Websoft9](https://github.com/Websoft9/websoft9) you can use this plugin directly.
+This plugin is a part of [Websoft9](https://github.com/Websoft9/websoft9) which is a web-based PaaS platform.
 
-If there no this plugin at Websoft9, you can install or upgrade it by below command:
+You can install or upgrade it by below command:
 
 ```
-cd /usr/share/cockpit
-wget https://artifact.azureedge.net/release/websoft9/plugin/navigator/navigator-latest.zip
-unzip navigator-latest.zip && rm -f navigator-latest.zip
+wget https://websoft9.github.io/websoft9/scripts/update_zip.sh && bash ./update_zip.sh --channel release --package_name "navigator-latest.zip" --sync_to "/usr/share/cockpit/navigator"
 ```
 
 ## How to contribute it?
